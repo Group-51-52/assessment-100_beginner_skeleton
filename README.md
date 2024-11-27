@@ -32,6 +32,7 @@ You can install `pytest` using pip:
 
 ```bash
 pip install pytest
+```
 
 ## **How to Use**
 
@@ -47,21 +48,27 @@ For each task, there is a corresponding test file in the `tests/` directory. The
 To test all tasks at once, navigate to the project root directory and run:
 ```bash
 pytest tests/
+```
 
 ## **Run Tests for a Specific Task**
 
 ### **To run tests for a specific task, use the following commands:**
 ```bash
 pytest tests/test_task1_greeting.py
+```
 
 ```bash
 pytest tests/test_task2_sum.py
+```
 
 ```bash
 pytest tests/test_task3_vowels.py
+```
 
 ```bash
 pytest tests/test_task4_max.py
+```
 
 ```bash
 pytest tests/test_task5_fizzbuzz.py
+```
